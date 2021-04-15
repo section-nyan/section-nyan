@@ -1,0 +1,175 @@
+/* NOTE: CSS Media Query for Web Comic Pages */
+@media only screen and (max-width: 1200px) {
+
+  /* ----------------------- */
+  /* Basic Setup             */
+  /* ----------------------- */
+  /* ----------------------- */
+  /* Reusable Components     */
+  /* ----------------------- */
+  /* Element */
+  /* Class */
+  .row {
+    padding: 0 2%;
+  }
+
+  /* ----------------------- */
+  /* Header Section          */
+  /* ----------------------- */
+  /* Main Navigation */
+  /* Sticky Navigation */
+  /* --------------------- */
+  /* Issue Drop-Down List  */
+  /* --------------------- */
+  /* ------------------------ */
+  /* Web Comic Pages Section  */
+  /* ------------------------ */
+  /* ----------------------- */
+  /* Footer Section          */
+  /* ----------------------- */
+}
+
+@media only screen and (max-width: 1024px) {
+
+  /* ----------------------- */
+  /* Basic Setup             */
+  /* ----------------------- */
+  /* ----------------------- */
+  /* Reusable Components     */
+  /* ----------------------- */
+  /* Element */
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  /* Class */
+  /* ----------------------- */
+  /* Header Section          */
+  /* ----------------------- */
+  /* Main Navigation */
+  /* Sticky Navigation */
+  /* --------------------- */
+  /* Issue Drop-Down List  */
+  /* --------------------- */
+  /* ------------------------ */
+  /* Web Comic Pages Section  */
+  /* ------------------------ */
+  /* ----------------------- */
+  /* Footer Section          */
+  /* ----------------------- */
+}
+
+@media only screen and (max-width: 800px) {
+
+  /* ----------------------- */
+  /* Basic Setup             */
+  /* ----------------------- */
+  /* ----------------------- */
+  /* Reusable Components     */
+  /* ----------------------- */
+  /* Element */
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  /* Class */
+  /* ----------------------- */
+  /* Header Section          */
+  /* ----------------------- */
+  /* Main Navigation */
+  /* Sticky Navigation */
+  /* --------------------- */
+  /* Issue Drop-Down List  */
+  /* --------------------- */
+  /* ------------------------ */
+  /* Web Comic Pages Section  */
+  /* ------------------------ */
+  .section-webcomic {
+    margin-top: 10%;
+  }
+
+  .section-webcomic img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* ----------------------- */
+  /* Footer Section          */
+  /* ----------------------- */
+}
+
+@media only screen and (max-width: 480px) {
+
+  /* ----------------------- */
+  /* Basic Setup             */
+  /* ----------------------- */
+  /* ----------------------- */
+  /* Reusable Components     */
+  /* ----------------------- */
+  /* Element */
+  section {
+    padding: 25px 0;
+  }
+
+  /* Class */
+  /* ----------------------- */
+  /* Header Section          */
+  /* ----------------------- */
+  .logo-black {
+    height: 40px;
+  }
+
+  /* Main Navigation */
+  /* Sticky Navigation */
+  /* --------------------- */
+  /* Issue Drop-Down List  */
+  /* --------------------- */
+  /* ------------------------ */
+  /* Web Comic Pages Section  */
+  /* ------------------------ */
+  /* ----------------------- */
+  /* Footer Section          */
+  /* ----------------------- */
+}
+
+@media only screen and (max-width: 280px) {
+
+  /* ----------------------- */
+  /* Basic Setup             */
+  /* ----------------------- */
+  /* ----------------------- */
+  /* Reusable Components     */
+  /* ----------------------- */
+  /* Element */
+  /* Class */
+  /* ----------------------- */
+  /* Header Section          */
+  /* ----------------------- */
+  /* Main Navigation */
+  /* Sticky Navigation */
+  /* --------------------- */
+  /* Issue Drop-Down List  */
+  /* --------------------- */
+  /* ------------------------ */
+  /* Web Comic Pages Section  */
+  /* ------------------------ */
+  /* ----------------------- */
+  /* Footer Section          */
+  /* ----------------------- */
+  footer {
+    padding: 10px;
+  }
+
+  footer p {
+    margin-top: 1px;
+  }
+
+}

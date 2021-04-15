@@ -1,0 +1,396 @@
+/* NOTE: CSS for main website */
+/* ============================================== */
+/* Color Reference:                               */
+/* Source (https://flatuicolors.com/palette/defo) */
+/*                                                */
+/* Orange = #F39C12                               */
+/* Orange-Darker = #CF6D17                        */
+/* ============================================== */
+/* ----------------------- */
+/* Basic Setup             */
+/* ----------------------- */
+html {
+  background-color: #FFF;
+  color: #111;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+body, header, div, ul, li, span, p {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------- */
+/* Reusable Components     */
+/* ----------------------- */
+/* Element */
+h1 {
+  color: #FFF;
+  font-size: 240%;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-transform: uppercase;
+  word-spacing: 4px;
+}
+
+h2 {
+  font-size: 180%;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 2px;
+}
+
+h2:after {
+  background-color: #F39C12;
+  content: " ";
+  display: block;
+  height: 2px;
+  margin: 0 auto 0 auto;
+  margin-top: 30px;
+  width: 100px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* Class */
+.btn:link,
+.btn:visited {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: 300;
+  margin-right: 15px;
+  padding: 10px 30px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #CF6D17;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #F39C12;
+  border: 1px solid #F39C12;
+  color: #FFF;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #CF6D17;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #F39C12;
+  color: #F39C12;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #CF6D17;
+  color: #FFF;
+}
+
+.icon-big {
+  color: #f39c12;
+  display: block;
+  font-size: 220%;
+}
+
+.long-text {
+  margin-bottom: 30px
+}
+
+.row {
+  margin: auto;
+  max-width: 1140px;
+}
+
+/* ----------------------- */
+/* Header Section          */
+/* ----------------------- */
+header {
+  background-attachment: fixed;
+  /* Background image by Hossam M. Omar (Unsplash License) */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/milky_way_starry_sky_stars-min.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/milky_way_starry_sky_stars-min.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 38%;
+  left: 8%;
+}
+
+.logo {
+  float: left;
+  height: 150px;
+  margin-top: 1px;
+  width: auto;
+}
+
+.logo-black {
+  float: left;
+  height: 50px;
+  margin: 5px 0;
+  width: auto;
+  display: none;
+}
+
+/* Main Navigation */
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  border-bottom: 2px solid transparent;
+  color: #FFF;
+  font-size: 90%;
+  padding: 8px 0 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #F39C12;
+}
+
+/* Sticky Navigation */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  -webkit-box-shadow: 0 2px 2px #EFEFEF;
+  box-shadow: 0 2px 2px #EFEFEF;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  color: #555;
+  padding: 5px 0;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.sticky .logo-black {
+  display: block;
+}
+
+/* ----------------------- */
+/* About Section           */
+/* ----------------------- */
+.section-about {
+  line-height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+}
+
+.about-column {
+  float: left;
+  padding: 10px;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-category {
+  color: #CF6D17;
+  font-size: 100%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.about-genre,
+.about-reader-demography,
+.about-release-schedule {
+  margin-bottom: 30px;
+}
+
+/* ----------------------- */
+/* Story Arc Section       */
+/* ----------------------- */
+.section-storyarc {
+  background-color: #F5F5F5;
+}
+
+.storyarc-column {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.issue-title {
+  color: #CF6D17;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+}
+
+.issue-description {
+  line-height: 28px;
+  word-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.issue-cover-art {
+  height: 400px;
+  width: auto;
+  margin-left: 120px;
+}
+
+/* ----------------------- */
+/* Who Am I Section        */
+/* ----------------------- */
+.section-who {
+  line-height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+}
+
+.who-highlight {
+  color: #CF6D17;
+}
+
+.socials-container {
+  list-style: none;
+}
+
+.socials-container li {
+  display: inline-block;
+}
+
+.socials-icon {
+  font-size: 220%;
+  margin-right: 15px;
+}
+
+.socials-icon:hover {
+  color: #CF6D17;
+}
+
+/* ----------------------- */
+/* Support Section         */
+/* ----------------------- */
+.section-support {
+  background-color: #F2F2F2;
+  word-spacing: 2px;
+}
+
+.support-text {
+  text-align: center;
+}
+
+.support-column {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.support-channel-name {
+  color: #CF6D17;
+  font-size: 120%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.support-channel-amount {
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.support-channel-amount-aux {
+  font-size: 80%;
+  letter-spacing: 0;
+}
+
+.support-channel-text {
+  font-size: 90%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  word-spacing: 1px;
+}
+
+.support-channel-button {
+  margin-top: 30px;
+}
+
+/* ----------------------- */
+/* Footer Section          */
+/* ----------------------- */
+footer {
+  background-color: #222;
+  font-size: 90%;
+  padding: 50px;
+}
+
+footer p {
+  color: #F39C12;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,180 @@
+/* NOTE: CSS for Web Comic Pages */
+/* ============================================== */
+/* Color Reference:                               */
+/* Source (https://flatuicolors.com/palette/defo) */
+/*                                                */
+/* Orange = #F39C12                               */
+/* Orange-Darker = #CF6D17                        */
+/* ============================================== */
+/* ----------------------- */
+/* Basic Setup             */
+/* ----------------------- */
+html {
+  background-color: #F5F5F5;
+  color: #555;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+body, header, div, ul, li, span, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------- */
+/* Reusable Components     */
+/* ----------------------- */
+/* Element */
+section {
+  padding: 80px 0;
+}
+
+/* Class */
+.row {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.icon-big {
+  color: #f39c12;
+  display: block;
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+/* ----------------------- */
+/* Header Section          */
+/* ----------------------- */
+header {
+  height: 1vh;
+}
+
+.logo-black {
+  float: left;
+  height: 50px;
+  margin: 5px 0;
+  width: auto;
+}
+
+/* Main Navigation */
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+/* Sticky Navigation */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  -webkit-box-shadow: 0 2px 2px #EFEFEF;
+  box-shadow: 0 2px 2px #EFEFEF;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 18px;
+}
+
+.sticky .logo-black {
+  display: block;
+}
+
+/* --------------------- */
+/* Issue Drop-Down List  */
+/* --------------------- */
+.dropbtn {
+  background-color: #FFF;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 90%;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 20px;
+}
+
+.dropdown-content a {
+  color: #555;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 80%;
+  letter-spacing: 1px;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #F39C12;
+  background-color: #FFF;
+}
+
+/* ------------------------ */
+/* Web Comic Pages Section  */
+/* ------------------------ */
+.section-webcomic {
+  text-align: center;
+}
+
+.back-to-top-page {
+  font-size: 90%;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.back-to-top-page a:link,
+.back-to-top-page a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.back-to-top-page a:hover {
+  color: #F39C12;
+  background-color: #FFF;
+}
+
+/* ----------------------- */
+/* Footer Section          */
+/* ----------------------- */
+footer {
+  background-color: #222;
+  font-size: 90%;
+  padding: 50px;
+}
+
+footer p {
+  color: #F39C12;
+  margin-top: 10px;
+  text-align: center;
+}
